@@ -9,7 +9,7 @@ DiffCast is a precipitation nowcasting framework based on  diffusion model and a
 
 This repository contains the part of training and inference code for using DiffCast to make predictions (5 --> 20) on SEVIR datasets. 
 
-> Other pulbic datasets in our paper is preprocessed with `h5` files. Feel free to concat me (deminy@stu.hit.edu.cn,deminyu98@gmail.com) if you have any questions about code or datasets.
+> Other pulbic datasets in our paper are preprocessed with `h5` files. Feel free to concat me (deminy@stu.hit.edu.cn,deminyu98@gmail.com) if you have any questions about code or datasets.
 
 ## Code
 
