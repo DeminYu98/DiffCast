@@ -115,7 +115,8 @@ def build_model(chkpt_path):
     diff_model = diff_model.to(device)
     
     data = torch.load(chkpt_path, map_location=device)
-    diff_model.load_state_dict(data['ema'])
+    print(data.keys())
+    diff_model.load_state_dict(data['model'])
     print(f"Loaded model from {chkpt_path}")
     
     return diff_model
