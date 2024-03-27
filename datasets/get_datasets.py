@@ -101,7 +101,7 @@ DATAPATH = {
     'cikm' : 'path/to/dataset/cikm.h5',
     'shanghai' : 'path/to/dataset/shanghai.h5',
     'meteo' : 'path/to/dataset/meteo_radar.h5',
-    'sevir' : '/mnt/sda/demin/Datasets/SEVIR/sevir'
+    'sevir' : 'path/to/dataset/sevir'
 }
 
 def get_dataset(data_name, img_size, seq_len, **kwargs):
