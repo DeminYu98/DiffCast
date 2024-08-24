@@ -131,7 +131,7 @@ def get_dataset(data_name, img_size, seq_len, **kwargs):
         from .dataset_sevir import SEVIRTorchDataset, gray2color, PIXEL_SCALE, THRESHOLDS
         
         train_valid_split = (2019, 1, 1)
-        valid_test_split = (2019, 6, 1)
+        valid_test_split = (2019, 10, 1)
         batch_size = kwargs.get('batch_size', 1)
         
         train = SEVIRTorchDataset(
