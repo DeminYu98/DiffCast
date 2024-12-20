@@ -9,8 +9,6 @@ DiffCast is a precipitation nowcasting framework based on  diffusion model and a
 
 This repository contains the part of training and inference code for using DiffCast to make predictions (5 --> 20) on SEVIR datasets. 
 
-> Other pulbic datasets in our paper are preprocessed with `h5` files. Feel free to concat me (deminy@stu.hit.edu.cn,deminyu98@gmail.com) if you have any questions about code or datasets.
-
 ## Code
 
 ### Environment
@@ -19,7 +17,7 @@ This repository contains the part of training and inference code for using DiffC
 conda env create -f env.ymal
 conda activate diffcast
 ```
-<details open>
+<details close>
 <summary>Optional Accelerate Env</summary>
 
  We apply the `HuggingFace Accelerator` in our code to utilize multi-gpus. 
@@ -31,7 +29,24 @@ conda activate diffcast
 
 ### Resource
 
-pretrained DiffCast_PhyDNet: [GooleDrive](https://drive.google.com/file/d/1y8BvYz3U_awm1eAYqXBy6tgbMy8t40Xr/view?usp=sharing)
+pretrained DiffCast_PhyDNet: [GoogleDrive](https://drive.google.com/file/d/1y8BvYz3U_awm1eAYqXBy6tgbMy8t40Xr/view?usp=sharing)
+
+### Datasets
+All the four datasets in our paper is publicly available.
+You can find the datasets as follows:
+- [SEVIR](https://nbviewer.org/github/MIT-AI-Accelerator/eie-sevir/blob/master/examples/SEVIR_Tutorial.ipynb)
+- [Metnet](https://meteofrance.github.io/meteonet/english/data/rain-radar/)
+- [Shanghai_Radar](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2GKMQJ)
+- [CIKM_Radar](https://tianchi.aliyun.com/dataset/1085)
+
+We update the preprocess code at [HERE](https://github.com/DeminYu98/DiffCast/blob/main/datasets/preprocess.py)
+
+
+Also, you can directly download the `h5` file we have built:
+- Metnet: [GoogleDrive](https://drive.google.com/file/d/1wePwPVOLb-xE_jwDCOwCM-nKoenUY7ww/view?usp=drive_link)
+- Shanghai_Radar: [GoogleDrive](https://drive.google.com/file/d/14JB4ElkZKHzqxIGKMFrbnY2P4zcae8RA/view?usp=drive_link)
+
+We apologize for the late update of our datasets for some reason, feel free to concat me (deminy@stu.hit.edu.cn,deminyu98@gmail.com) if you have any questions about code or datasets.
 
 
 ### Toy prediction visiualization 
