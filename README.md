@@ -45,6 +45,7 @@ We update the preprocess code at [HERE](https://github.com/DeminYu98/DiffCast/bl
 Also, you can directly download the `h5` file we have built:
 - Metnet: [GoogleDrive](https://drive.google.com/file/d/1wePwPVOLb-xE_jwDCOwCM-nKoenUY7ww/view?usp=drive_link)
 - Shanghai_Radar: [GoogleDrive](https://drive.google.com/file/d/14JB4ElkZKHzqxIGKMFrbnY2P4zcae8RA/view?usp=drive_link)
+- CIKM_Radar: [GoogleDrive](https://drive.google.com/file/d/1N3K17-2dnC49Qx9JLYfVG3_blrRV2_7k/view?usp=sharing)
 
 We apologize for the late update of our datasets for some reason, feel free to concat me (deminy@stu.hit.edu.cn,deminyu98@gmail.com) if you have any questions about code or datasets.
 
